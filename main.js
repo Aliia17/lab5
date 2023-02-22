@@ -1,3 +1,4 @@
+function load () {
 let column_1 = [9, 1, 1, 10, 1, 9, 7, 10, 1, 1, 5, 5, 4, 10, 4, 10, 9, 9, 9, 4, 8, 4, 2, 1, 7, 4, 4, 8, 10, 3
 ];
 let column_2 =[9, 10, 4, 3, 4, 6, 1, 9, 1, 5, 6, 7, 1, 1, 4, 4, 2, 10, 4, 10, 8, 4, 2, 1, 8, 1, 3, 1, 2, 3];
@@ -29,9 +30,9 @@ const results = {
 	col3: [column_3],	
 	col4: [column_4],	
 	sums: [sum_1, sum_2, sum_3, sum_4], 	// array of sums of each column
-	total_score: sums,	// computed total score
+	total_score: sum_1 + sum_2 + sum_3 +sum_4,	// computed total score
 }
 console.log(results)
 
-
+}
 
